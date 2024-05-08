@@ -1,0 +1,8 @@
+  version: '1'
+
+  services:
+    frontend:
+      build:
+        context: ./
+      ports:
+        - "9000"
